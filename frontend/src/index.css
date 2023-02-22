@@ -1,0 +1,85 @@
+main {
+  min-height: 80vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.loader {
+  background-color: #4c6ef5;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.btn-search {
+  padding: 0.54rem;
+  margin-left: 3rem;
+}
+
+@media (max-width: 576px) {
+  .btn-search {
+    margin-left: 0;
+  }
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+  display: flex;
+  opacity: 0.9;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.carousel img {
+  height: 350px;
+  padding: 30px;
+  margin: 80px auto 50px auto;
+  border-radius: 50%;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h2 {
+    font-size: 1rem;
+  }
+
+  .carousel img {
+    height: 220px;
+    margin: 90px auto 40px auto;
+  }
+}
